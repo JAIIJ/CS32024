@@ -1,0 +1,981 @@
+﻿body {
+    background-color: blanchedalmond;
+}
+
+.navlinks {
+    background-color: darksalmon;
+    overflow: hidden;
+    border-color: darkred;
+    border-style: double;
+    border-width: 7px;
+}
+
+    .navlinks a {
+        float: right;
+        display: block;
+        color: black;
+        text-decoration: none;
+        padding-left: 3%;
+        padding-right: 3%;
+        margin-top: 2.0%;
+        font-size: large;
+        margin-bottom: 2%;
+    }
+
+        .navlinks a:visited {
+            color: azure;
+        }
+
+        .navlinks a:hover {
+            background-color: azure;
+            color: purple;
+        }
+
+        .navlinks a:active {
+            background-color: azure;
+            color: red;
+        }
+
+.Logo {
+    float: left;
+    width: 4.7%;
+    height: 2.5%;
+    margin-left: 2%;
+    margin-top: 0.9%;
+}
+
+.image1 {
+    margin-top: 0.4%;
+    width: 100%;
+}
+
+.video-section {
+    text-align: center;
+    margin: 20px;
+    padding-top: 2%;
+}
+
+video {
+    width: 80%;
+    max-width: 800px;
+    border: 15px solid azure;
+    border-radius: 30px;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+}
+
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.gen {
+    padding-top: 3%;
+    font-size: x-large;
+}
+
+h1 {
+    font-size: xx-large;
+    font-family: 'Circular', Avenir, sans-serif;
+    color: #2E2E2E;
+    margin-bottom: 2%;
+}
+
+.description1 {
+    font-size: x-large;
+    font-family: 'Circular', Avenir, sans-serif;
+    margin-right: 10%;
+    color: #2E2E2E;
+}
+
+.author {
+    font-size: large;
+}
+
+.part2 {
+    margin-left: 10%;
+    margin-top: 6%;
+}
+
+.part2-1 {
+    font-size: x-large;
+    font-family: Papyrus, Fantasy;
+}
+
+.latestr {
+    font-size: medium;
+}
+
+.manga {
+    float: left;
+}
+
+.Mangapic {
+    width: 90%;
+    height: 95%;
+}
+
+.description2 {
+    font-size: large;
+    font-family: Courier New, Monospace;
+    margin-right: 24%;
+    margin-top: 1%;
+}
+
+.final {
+    background-image: url('../images/Others/Lastpic.png');
+    background-size: 100%;
+    margin-top: 15%;
+    padding: 2.5%;
+}
+
+.quotes {
+    font-size: large;
+    font-weight: bold;
+}
+
+.msg {
+    text-align: center;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.social-media {
+    text-align: center;
+    margin: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-image: url('../images/Others/Logos.png');
+    background-repeat: no-repeat;
+    margin: 0 5px;
+}
+
+    .social-icon.facebook {
+        background-position: -27px -29px;
+    }
+
+        .social-icon.facebook:hover {
+            background-position: -27px -329px;
+        }
+
+    .social-icon.twitter {
+        background-position: -387px -29px;
+    }
+
+        .social-icon.twitter:hover {
+            background-position: -387px -329px;
+        }
+
+
+
+
+
+
+
+/* Characters style */
+
+.title {
+    margin-left: 3.9%;
+    margin-top: 4%;
+}
+
+.pic1 {
+    float: right;
+    width: 42%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.pagedescrip {
+    font-size: x-large;
+    font-family: Monaco, Monospace;
+    margin-left: 3.9%;
+    margin-right: 3.9%;
+}
+
+.label3 {
+    margin-left: 3.9%;
+    margin-top: 2%;
+}
+
+.guidee {
+    margin-left: 3.9%
+}
+
+.alive {
+    color: green;
+}
+
+.deceased {
+    color: red
+}
+
+@keyframes swingSword {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.sword {
+    max-width: 100px; 
+    height: auto; 
+    transform: translateX(-50%); 
+    animation: swingSword 2s infinite;
+    transform-origin: bottom center; 
+    margin-left: 3.9%;
+}
+
+
+.kingdom1 {
+    margin-top: 2.5%;
+    margin-left: 3.9%;
+    margin-right: 3.9%;
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-color: gray;
+    padding-bottom: 2.5%;
+}
+
+.type1 {
+    margin-left: 3.9%;
+    margin-top: 3%;
+}
+
+.type2 {
+    margin-top: 40%;
+    margin-left: 3.9%;
+}
+
+.HOUSE {
+    margin-top: 2%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.HOUSES {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.HOUSE2 {
+    margin-top: 2%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+.HOUSES2 {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: gold;
+    border-radius: 5px;
+}
+
+.HOUSE3 {
+    margin-top: 2%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.HOUSES3 {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.HOUSES4 {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: Cyan;
+    border-radius: 5px;
+}
+
+.HOUSES5 {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.HOUSES6 {
+    margin-top: 35%;
+    padding: 4px;
+    text-align: center;
+    margin-right: 3.9%;
+    margin-left: 3.9%;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.CharImg {
+    width: 100%;
+} 
+
+.row {
+    margin-left: 3.9%;
+    margin-right: 3.9%;
+}
+
+.column1, .column2 {
+    margin-top: 3px;
+    float: left;
+    padding: 5px;
+    width: 12%;
+    margin-right: 3px;
+}
+
+.names {
+    text-align: center;
+    font-family: Garamond, Serif;
+}
+
+.column1 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: green;
+    border-radius: 10px;
+}
+
+.column2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: red;
+    border-radius: 10px;
+}
+
+.closemsg {
+    margin-top: 25%;
+    font-size: large;
+    text-align: center;
+}
+
+
+
+
+
+
+/*Squads and Members style*/
+
+.wcm {
+    text-align: center;
+}
+
+.wcmdc {
+    text-align: center;
+}
+
+.squad {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.squad:nth-child(even) {
+    background-color: #f2f2f2;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.squad h2 {
+        color: #333;
+    }
+
+.squad ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+.squad li:first-child {
+        font-weight: bold;
+        color: darkblue;
+}
+
+.squad li ul li:first-child {
+        color: green;
+        font-style: italic;
+    }
+
+.SquadLogo {
+        width: 25%;
+    }
+
+
+
+
+
+
+/*Grimoires and Attributes Style*/
+
+.Squadpage {
+    font-family: 'Arial', sans-serif;
+    background-color: blanchedalmond;
+    color: #333;
+    line-height: 1.6;
+}
+
+.main2 {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.grimoire-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.grimoire {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.grimoire:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 4px 5px rgba(0,0,0,0.2);
+}
+
+.typeGrim {
+    color: #333;
+    margin-top: 0;
+}
+
+
+
+
+
+/* Character Ranking style */
+
+.CharacterRankPage {
+    font-family: 'Arial', sans-serif;
+    box-sizing: border-box;
+}
+
+.Top10{
+    margin-top: 2%;
+    text-align: center;
+}
+
+.branding img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.branding h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.rankings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.character {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.character:hover {
+    transform: scale(1.05);
+}
+
+.Lasttpic {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.page-description {
+    margin-right: 5%;
+    margin-left: 5%;
+    font-family: Papyrus, Fantasy;
+}
+.rank {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px 0 0 8px;
+    margin-left: 2%;
+}
+
+.info {
+    padding: 15px;
+}
+
+.info h2 {
+    margin: 0;
+}
+
+@media (max-width: 600px) {
+    .character {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .rank {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+    }
+}
+
+@media (max-width: 600px) {
+    .grimoire-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    .navlinks a {
+        margin-bottom: 3.6%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .navlinks a {
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        font-size: xx-small;
+        margin-top: 3.8%;
+        margin-right: 1%;
+        margin-bottom: 3%;
+    }
+    .Logo {
+        width: 5%;
+        height: 3%;
+        margin-top: 3%;
+        padding-bottom: 2.5%;
+    }
+    .gen {
+        font-size: medium;
+    }
+    h1 {
+        font-size: large;
+    }
+    .description1 {
+        font-size: medium;
+    }
+    .author {
+        font-size: small;
+    }
+    .part2-1 {
+        font-size: large;
+    }
+
+    .latestr {
+        font-size: medium;
+    }
+    .description2 {
+        font-size: small;
+    }
+    .watch-button2 {
+        font-size: small;
+    }
+    .quotes {
+        font-size: medium;
+    }
+    .pagedescrip {
+        font-size: x-small;
+    }
+    .label3 {
+       font-size: medium;
+    }
+
+    .guidee {
+        font-size: small;
+    }
+
+    .alive {
+        font-size: small;
+    }
+
+    .deceased {
+        font-size: small;
+    }
+    .kingdom1 {
+        font-size: medium;
+    }
+
+    .type1 {
+        font-size: medium;
+    }
+
+    .type2 {
+        font-size: medium;
+        margin-top:60%;
+    }
+
+    .HOUSE {
+       font-size: small;
+    }
+
+    .HOUSES {
+        font-size: small;
+    }
+
+    .HOUSE2 {
+        font-size: small;
+    }
+
+    .HOUSES2 {
+        font-size: small;
+    }
+
+    .HOUSE3 {
+        font-size: small;
+    }
+
+    .HOUSES3 {
+        font-size: small;
+    }
+
+    .HOUSES4 {
+        font-size: small;
+    }
+
+    .HOUSES5 {
+        font-size: small;
+    }
+
+    .HOUSES6 {
+        font-size: small;
+    }
+    .names {
+        font-size: x-small;
+    }
+    .HOUSE {
+        margin-top: 2.2%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+    .HOUSES {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+    .HOUSE2 {
+        margin-top: 2.2%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gold;
+        border-radius: 5px;
+    }
+
+    .HOUSES2 {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gold;
+        border-radius: 5px;
+    }
+
+    .HOUSE3 {
+        margin-top: 2.2%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .HOUSES3 {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .HOUSES4 {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: Cyan;
+        border-radius: 5px;
+    }
+
+    .HOUSES5 {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: red;
+        border-radius: 5px;
+    }
+
+    .HOUSES6 {
+        margin-top: 50%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .CharImg {
+        width: 100%;
+    }
+
+    .row {
+        margin-left: 3.9%;
+        margin-right: 3.9%;
+    }
+
+    .column1, .column2 {
+        margin-top: 3px;
+        float: left;
+        padding: 5px;
+        width: 12%;
+        margin-right: 3px;
+    }
+
+    .names {
+        text-align: center;
+        font-family: Garamond, Serif;
+    }
+
+    .column1 {
+        border-style: solid;
+        border-width: 3px;
+        border-color: green;
+        border-radius: 10px;
+    }
+
+    .column2 {
+        border-style: solid;
+        border-width: 3px;
+        border-color: red;
+        border-radius: 10px;
+    }
+
+    .closemsg {
+        margin-top: 40%;
+        font-size: large;
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .Logo {
+        margin-top: 0.25%;
+    }
+    .HOUSE {
+        margin-top: 1%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+    .HOUSES {
+        margin-top: 20%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gray;
+        border-radius: 5px;
+    }
+
+    .HOUSE2 {
+        margin-top: 1%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gold;
+        border-radius: 5px;
+    }
+
+    .HOUSES2 {
+        margin-top: 24%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: gold;
+        border-radius: 5px;
+    }
+
+    .HOUSE3 {
+        margin-top: 1.5%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .HOUSES3 {
+        margin-top: 22%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: orange;
+        border-radius: 5px;
+    }
+
+    .HOUSES4 {
+        margin-top: 24%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: Cyan;
+        border-radius: 5px;
+    }
+
+    .HOUSES5 {
+        margin-top: 22%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: red;
+        border-radius: 5px;
+    }
+
+    .HOUSES6 {
+        margin-top: 23%;
+        padding: 4px;
+        text-align: center;
+        margin-right: 3.9%;
+        margin-left: 3.9%;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .CharImg {
+        width: 100%;
+    }
+
+    .row {
+        margin-left: 3.9%;
+        margin-right: 3.9%;
+    }
+
+    .column1, .column2 {
+        margin-top: 3px;
+        float: left;
+        padding: 5px;
+        width: 12%;
+        margin-right: 3px;
+    }
+
+    .names {
+        text-align: center;
+        font-family: Garamond, Serif;
+    }
+
+    .column1 {
+        border-style: solid;
+        border-width: 3px;
+        border-color: green;
+        border-radius: 10px;
+    }
+
+    .column2 {
+        border-style: solid;
+        border-width: 3px;
+        border-color: red;
+        border-radius: 10px;
+    }
+
+    .closemsg {
+        margin-top: 25%;
+        font-size: large;
+        text-align: center;
+    }
+}
+
