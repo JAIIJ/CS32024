@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Assessment: Anagram</title>
+
+</head>
+<body>
+    <script>
+        var input1 = prompt("Enter the first word or phrase:");
+        var input2 = prompt("Enter the second word or phrase:");
+       
+        function anagram(input1, input2) {
+            var word1 = input1.replace(/\s/g, '').toLowerCase();
+            var word2 = input2.replace(/\s/g, '').toLowerCase();
+
+            if (word1.length !== word2.length) {
+                return input1 + " and " + input2 + " are not anagrams.";
+            }
+
+            var newWord1 = word1.split('').sort().join('');
+            var newWord2 = word2.split('').sort().join('');
+
+            if (newWord1 === newWord2) {
+                return input1 + " and " + input2 + " are anagrams.";
+            } else {
+                return input1 + " and " + input2 + " are not anagrams.";
+            }
+        }
+
+        var result = anagram(input1, input2);
+        alert(result);
+
+    </script>
+</body>
+</html>
